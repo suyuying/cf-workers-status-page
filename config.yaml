@@ -15,25 +15,86 @@ settings:
   dayInHistogramNotOperational: ' incident(s)' # xx incident(s) recorded
 
 monitors:
-  - id: workers-cloudflare-com # unique identifier
-    name: workers.cloudflare.com
+  - id: static-tqupkq-com # unique identifier
+    name: static.tqupkq.com
     description: 'You write code. They handle the rest.' # default=empty
-    url: 'https://workers.cloudflare.com/' # URL to fetch
+    url: 'https://static.tqupkq.com/index.html' # URL to fetch
     method: GET # default=GET
     expectStatus: 200 # operational status, default=200
-    followRedirect: false # should fetch follow redirects, default=false
-    linkable: false # allows the title to be a link, default=true
-
-  - id: www-cloudflare-com
-    name: www.cloudflare.com
-    description: 'Built for anything connected to the Internet.'
-    url: 'https://www.cloudflare.com'
+    followRedirect: yes # should fetch follow redirects, default=false
+    linkable: true # allows the title to be a link, default=true
+  - id: ylt
+    name: ylt
+    url: 'https://h5.sxj5888.com/index.html'
     method: GET
     expectStatus: 200
-    linkable: true # allows the title to be a link, default=true
-
-  - id: blog-cloudflare-com
-    name: The Cloudflare Blog
-    url: 'https://blog.cloudflare.com/'
+  - id: ylz
+    name: ylz
+    url: 'https://888-h5.tqupkq.com/index.html'
+    method: GET
+    expectStatus: 200
+  - id: yl508
+    name: yl508
+    url: 'https://h5.happy608.com/index.html'
+    method: GET
+    expectStatus: 200
+  - id: ylgpk
+    name: ylgpk
+    url: 'https://h5-1.rc9gqn.com/index.html'
+    method: GET
+    expectStatus: 200    
+  - id: yldf
+    name: yldf
+    url: 'https://h5.voyygg.com/index.html'
+    method: GET
+    expectStatus: 200
+  - id: yl34
+    name: yl34
+    url: 'https://666-h5.lg005.com/index.html'
+    method: GET
+    expectStatus: 200
+  - id: yl110
+    name: yl110
+    url: 'https://h5.fvkn216.com/index.html'
+    method: GET
+    expectStatus: 200
+  - id: ly1
+    name: ly1
+    url: 'https://h5-2.mjshx29.com/index.html'
+    method: GET
+    expectStatus: 200
+  - id: ly2
+    name: ly2
+    url: 'https://ly2.nbm010.com/index.html'
+    method: GET
+    expectStatus: 200    
+  # - id: xsj1
+  #   name: xsj1
+  #   url: 'https://h5.sfdk37.com/index.html'
+  #   method: GET
+  #   expectStatus: 200
+  - id: xsj2
+    name: xsj2
+    url: 'https://h5.dgen940.com/index.html'
+    method: GET
+    expectStatus: 200
+  - id: kx
+    name: kx
+    url: 'https://h5-2.xsdhj27.com/index.html'
+    method: GET
+    expectStatus: 200
+  - id: v8
+    name: v8
+    url: 'https://h5.shyc883.com/index.html'
+    method: GET
+    expectStatus: 200    
+  - id: mp
+    name: mp
+    url: 'https://tgqd.hmlt20.com/index.html'
+    method: GET
+    expectStatus: 200
+  - id: lp
+    name: lp
+    url: 'https://h5.wpdrk34.com/index.html'
     method: GET
     expectStatus: 200
